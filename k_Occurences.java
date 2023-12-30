@@ -11,7 +11,8 @@ class Solution {
                 count++;
                 i++;
             }
-            if (count >= k) ans++;
+            if (count >= k)
+                ans++;
         }
         return ans;
     }
